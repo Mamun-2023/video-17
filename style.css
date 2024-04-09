@@ -1,0 +1,60 @@
+/* element selector */
+div {
+  color: brown;
+  background: #b49e9e;
+}
+
+/* id selector */
+#identity {
+  color: green;
+}
+
+/* class selector */
+.classical {
+  background-color: bisque;
+}
+
+/* immediate child selector */
+div > li {
+  background-color: darkkhaki;
+  color: rgb(218, 17, 218);
+}
+
+/* descendent child selector */
+div li {
+  color: rgb(64, 80, 224);
+  border: 5px solid orangered;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pseudo selectors */
+/* visited links */
+a:visited{
+    color: rgb(0, 255, 13);
+}
+
+/* not visited links */
+a:link{
+ color: chocolate;
+}
+
+/* when click a link  */
+a:active{
+    background-color: blueviolet;
+}
+
+/* when hover a link */
+a:hover{
+    background-color: darkgreen;
+}
+
+/* first child select */
+p:first-child{
+    color: rgb(237, 100, 100);
+    background-color: rgb(188, 190, 185);
+}
